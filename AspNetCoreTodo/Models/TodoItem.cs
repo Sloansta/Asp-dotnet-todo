@@ -12,6 +12,6 @@ namespace AspNetCoreTodo.Models
         [Required]
         public string Title { get; set; }
 
-        public DateTimeOffSet? DueAt { get; set; }
+        public DateTimeOffset? DueAt { get; set; }
     }
 }
